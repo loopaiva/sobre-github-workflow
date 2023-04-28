@@ -1,6 +1,6 @@
 function validarEmail(email) {
     // Expressão regular para validar email
-    const padrao = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const padrao1 = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     return padrao.test(email);
   }
   
@@ -27,5 +27,5 @@ function validarEmail(email) {
     console.log('Email inválido1')
   }
   
-
+//testando conflito
 
